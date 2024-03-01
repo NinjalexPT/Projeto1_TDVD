@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/alexn/projeto_01/Projeto1_TDVD/Projeto1TDVD/Content/Character6.png","C:/Users/alexn/projeto_01/Projeto1_TDVD/Projeto1TDVD/Content/bin/DesktopGL/Character6.xnb","TextureProcessor","Texture2DContent",1752,8817,0,1011843
+"C:/Users/alexn/projeto_01/Projeto1_TDVD/Projeto1TDVD/Content/Crate_Blue.png","C:/Users/alexn/projeto_01/Projeto1_TDVD/Projeto1TDVD/Content/bin/DesktopGL/Crate_Blue.xnb","TextureProcessor","Texture2DContent",1096,16469,0,0021143
+"C:/Users/alexn/projeto_01/Projeto1_TDVD/Projeto1TDVD/Content/EndPoint_Black.png","C:/Users/alexn/projeto_01/Projeto1_TDVD/Projeto1TDVD/Content/bin/DesktopGL/EndPoint_Black.xnb","TextureProcessor","Texture2DContent",520,4181,0,001544
+"C:/Users/alexn/projeto_01/Projeto1_TDVD/Projeto1TDVD/Content/Wall_Gray.png","C:/Users/alexn/projeto_01/Projeto1_TDVD/Projeto1TDVD/Content/bin/DesktopGL/Wall_Gray.xnb","TextureProcessor","Texture2DContent",1473,16469,0,0021467

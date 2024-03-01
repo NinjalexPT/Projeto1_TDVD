@@ -8,6 +8,7 @@ namespace Projeto1TDVD
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private SpriteFont font;
 
         public Game1()
         {
@@ -26,6 +27,8 @@ namespace Projeto1TDVD
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            font = Content.Load<SpriteFont>("Fonte");
+
 
             // TODO: use this.Content to load your game content here
         }
@@ -45,6 +48,11 @@ namespace Projeto1TDVD
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+
+            _spriteBatch.Begin();
+            _spriteBatch.DrawString(font, "This is some trully some amazing text right here", new Vector2(100, 100), Color.Gold);
+            _spriteBatch.End();
+
 
             base.Draw(gameTime);
         }

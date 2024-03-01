@@ -29,3 +29,4 @@ C:\Users\alexn\projeto_01\Projeto1_TDVD\Projeto1TDVD\obj\Debug\net6.0\refint\Pro
 C:\Users\alexn\projeto_01\Projeto1_TDVD\Projeto1TDVD\obj\Debug\net6.0\Projeto1TDVD.pdb
 C:\Users\alexn\projeto_01\Projeto1_TDVD\Projeto1TDVD\obj\Debug\net6.0\Projeto1TDVD.genruntimeconfig.cache
 C:\Users\alexn\projeto_01\Projeto1_TDVD\Projeto1TDVD\obj\Debug\net6.0\ref\Projeto1TDVD.dll
+C:\Users\alexn\projeto_01\Projeto1_TDVD\Projeto1TDVD\bin\Debug\net6.0\Content\level1.txt

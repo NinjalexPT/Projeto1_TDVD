@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{49A78A21-166B-4B2E-8FAE-F80E38672965}|Projeto1TDVD.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{49A78A21-166B-4B2E-8FAE-F80E38672965}|Projeto1TDVD.csproj|c:\\users\\alexn\\projeto_01\\projeto1_tdvd\\projeto1tdvd\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A78A21-166B-4B2E-8FAE-F80E38672965}|Projeto1TDVD.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A78A21-166B-4B2E-8FAE-F80E38672965}|Projeto1TDVD.csproj|c:\\users\\alexn\\projeto_01\\projeto1_tdvd\\projeto1tdvd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A78A21-166B-4B2E-8FAE-F80E38672965}|Projeto1TDVD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49A78A21-166B-4B2E-8FAE-F80E38672965}|Projeto1TDVD.csproj|c:\\users\\alexn\\projeto_01\\projeto1_tdvd\\projeto1tdvd\\content\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{49A78A21-166B-4B2E-8FAE-F80E38672965}|Projeto1TDVD.csproj|solutionrelative:content\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alexn\\projeto_01\\Projeto1_TDVD\\Projeto1TDVD\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\alexn\\projeto_01\\Projeto1_TDVD\\Projeto1TDVD\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T12:08:42.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\alexn\\projeto_01\\Projeto1_TDVD\\Projeto1TDVD\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\alexn\\projeto_01\\Projeto1_TDVD\\Projeto1TDVD\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T11:35:09.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "level1.txt",
               "DocumentMoniker": "C:\\Users\\alexn\\projeto_01\\Projeto1_TDVD\\Projeto1TDVD\\Content\\level1.txt",
               "RelativeDocumentMoniker": "Content\\level1.txt",
@@ -38,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Fonte.spritefont",
               "DocumentMoniker": "C:\\Users\\alexn\\projeto_01\\Projeto1_TDVD\\Projeto1TDVD\\Content\\Fonte.spritefont",
               "RelativeDocumentMoniker": "Content\\Fonte.spritefont",
@@ -56,7 +90,7 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\alexn\\projeto_01\\Projeto1_TDVD\\Projeto1TDVD\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwFoAAAAiAAAA",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAswIAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T17:48:06.387Z",
               "EditorCaption": ""

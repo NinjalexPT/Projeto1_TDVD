@@ -1,7 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.ComponentModel.Design;
 using System.IO;
+using System.Reflection.Emit;
 
 namespace Projeto1TDVD
 {
@@ -15,7 +17,7 @@ namespace Projeto1TDVD
         private char[,] Level;
         private Texture2D player, dot, box, wall;
         int tileSize = 64;
-
+        private Player Sokoban;
 
         public Game1()
         {
@@ -29,6 +31,9 @@ namespace Projeto1TDVD
             // TODO: Add your initialization logic here
 
             LoadLevel("level1.txt");
+            _graphics.PreferredBackBufferHeight = tileSize * Level.GetLength(1); //definição da altura
+            _graphics.PreferredBackBufferWidth = tileSize * Level.GetLength(0); //definição da largura
+            _graphics.ApplyChanges();
 
             base.Initialize();
 
@@ -77,9 +82,9 @@ namespace Projeto1TDVD
 
                     switch(Level[x, y])
                     {
-                        case 'Y':
+                        /*case 'Y':
                             _spriteBatch.Draw(player, position, Color.White);
-                            break;
+                            break;*/
                         case 'X':
                             _spriteBatch.Draw(wall, position, Color.White);
                             break;
@@ -90,6 +95,12 @@ namespace Projeto1TDVD
                             _spriteBatch.Draw(dot, position, Color.White);
                             break;
                     }
+
+                    position.X = Sokoban.Position.X * tileSize;
+                    position.Y = Sokoban.Position.Y * tileSize;
+                    _spriteBatch.Draw(player, position, Color.White); 
+
+
                 }
             }
             
@@ -111,7 +122,20 @@ namespace Projeto1TDVD
             {
                 for(int y = 0; y < nrLinhas; y++)
                 {
-                    Level[x,y] = linhas[y][x];
+
+                    if (linhas[y][x] == 'Y')
+                    {
+                        Sokoban = new Player(x, y);
+                        Level[x, y] = ' ';
+                    }
+                    else
+                    {
+                        Level[x, y] = linhas[y][x];
+                    }
+
+
+
+                    
                 }
             }
             
